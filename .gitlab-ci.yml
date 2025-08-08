@@ -1,3 +1,33 @@
+---
+workflow:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH && $CI_OPEN_MERGE_REQUESTS
+      when: never
+    - if: $CI_COMMIT_BRANCH
+    - if: $CI_COMMIT_REF_PROTECTED == "true"
+
+stages:
+  - test
+
+.docker:
+  image: docker:28.1.1
+  services:
+    - docker:28.1.1-dind
+  before_script:
+    - set -euo pipefail
+    - docker info
+    - echo "$CI_REGISTRY_PASSWORD" | docker login $CI_REGISTRY -u
+      $CI_REGISTRY_USER --password-stdin
+    - apk update && apk upgrade
+    - apk add --no-cache bash git make
+    - export PATH=$PATH:$HOME/go/bin/
+    - wget -O go.tgz https://go.dev/dl/go1.24.3.linux-amd64.tar.gz
+    - tar -C /usr/local -xzf go.tgz
+    - export PATH=$PATH:/usr/local/go/bin
+    - go env -w GOPRIVATE=github.com/SlinkyProject/*
+
+
 pre-commit:
   stage: test
   extends: .docker
