@@ -49,15 +49,15 @@ repos:
       - id: codespell
         args: [--write-changes, --ignore-words-list, "aks,AKS"]
         exclude: (go.*|.*\.svg$)
-  - repo: https://github.com/thibaudcolas/pre-commit-stylelint
-    rev: v16.21.1
-    hooks:
-      - id: stylelint
-        args: [--fix]
-        additional_dependencies:
-          - stylelint
-          - stylelint-config-standard
-          - stylelint-scss
+  # - repo: https://github.com/thibaudcolas/pre-commit-stylelint
+  #   rev: v16.21.1
+  #   hooks:
+  #     - id: stylelint
+  #       args: [--fix]
+  #       additional_dependencies:
+  #         - stylelint
+  #         - stylelint-config-standard
+  #         - stylelint-scss
   # - repo: local
   #   hooks:
   #     - id: hugo-build
