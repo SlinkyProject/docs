@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Slinky documentation
+Slinky
 ================================
 
 .. image:: _static/images/slinky-equation.svg
