@@ -49,7 +49,7 @@ html_theme_options = {
     "navbar_start": ["navbar-logo"],
     "navbar_center": ["navbar-nav"],
     "navbar_end": ["navbar-icon-links"],
-    "navbar_persistent": ["version-switcher","search-button"],
+    "navbar_persistent": ["search-button"],
     # ...
     "logo": {
         "alt_text": "Slinky - Home"
