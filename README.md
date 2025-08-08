@@ -1,4 +1,4 @@
-# sphinx-docs
+# docs
 
 ## Getting started
 
