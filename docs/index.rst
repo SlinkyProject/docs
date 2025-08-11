@@ -18,7 +18,7 @@ Welcome to Slinky, a set of powerful integration tools designed to bring Slurm c
 Slinky is made by `SchedMD <https://schedmd.com/>`_, the lead developers of Slurm.
 
 .. card:: Slurm-operator
-   :link: slurm-bridge
+   :link: https://slinky.readthedocs.io/projects/slurm-operator/en/latest/
    :link-type: ref
    :link-alt: slurm-operator
 
@@ -30,7 +30,7 @@ Slinky is made by `SchedMD <https://schedmd.com/>`_, the lead developers of Slur
       :alt: Kubernetes + Slurm = Slinky
 
 .. card:: Slurm-bridge
-   :link: slurm-bridge
+   :link: https://slinky.readthedocs.io/projects/slurm-bridge/en/latest/
    :link-type: ref
    :link-alt: slurm-bridge
 
@@ -42,12 +42,3 @@ Slinky is made by `SchedMD <https://schedmd.com/>`_, the lead developers of Slur
       :width: 90%
       :align: center
       :alt: Kubernetes + Slurm = Slinky
-
-
-.. toctree::
-   :maxdepth: 1
-   :caption: All components
-
-   slurm-bridge <0.3.0/slurm-bridge/docs/index.rst>
-   slurm-operator <0.3.0/slurm-operator/docs/quickstart.md>
-   slurm-client <0.3.0/slurm-client/docs/slurm-client.md>
