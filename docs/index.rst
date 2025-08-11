@@ -19,7 +19,6 @@ Slinky is made by `SchedMD <https://schedmd.com/>`_, the lead developers of Slur
 
 .. card:: Slurm-operator
    :link: https://slinky.readthedocs.io/projects/slurm-operator/en/latest/
-   :link-type: ref
    :link-alt: slurm-operator
 
    slurm-operator allows users to run workloads on Slurm within a Kubernetes cluster, taking advantage of many of the advanced scheduling features of Slurm within a cloud-native environment.
@@ -31,7 +30,6 @@ Slinky is made by `SchedMD <https://schedmd.com/>`_, the lead developers of Slur
 
 .. card:: Slurm-bridge
    :link: https://slinky.readthedocs.io/projects/slurm-bridge/en/latest/
-   :link-type: ref
    :link-alt: slurm-bridge
 
    Slurm-bridge contains a `Kubernetes <https://kubernetes.io/>`__ scheduler to manage select
