@@ -27,7 +27,6 @@ stages:
     - export PATH=$PATH:/usr/local/go/bin
     - go env -w GOPRIVATE=github.com/SlinkyProject/*
 
-
 pre-commit:
   stage: test
   extends: .docker
