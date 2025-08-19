@@ -6,26 +6,12 @@ This documentation site uses [Sphinx](https://www.sphinx-doc.org/en/master/)
 with the
 [PyData Theme](https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html).
 
-To work on this site, you will need to install `sphinx`, `sphinx-autobuild`, and
-`pydata-sphinx-theme`. It is recommended that you work within a Python virtual
-environment while working on this site.
+To work on this site, we have provided a make target that runs
+`sphinx-autobuild` in a containerized environment, and serves the development
+site on http://127.0.0.1:8000
 
 ```bash
-python -m venv docs-venv
-source docs-venv/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
+make run-docs
 ```
 
-Serve the site locally using Python's `http.server` or `sphinx-autobuild`:
-
-```bash
-cd build/html
-python -m http.server
-```
-
-or
-
-```bash
-sphinx-autobuild source build/html
-```
+The docs will be available on: http://127.0.0.1:8000
