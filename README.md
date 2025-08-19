@@ -1,5 +1,11 @@
 # docs
 
+This repo contains the code for the Slinky documentation site landing page
+hosted at: https://slinky.readthedocs.io
+
+All other docs for Slinky are generated from the contents of the `slurm-bridge`
+and `slurm-operator` repos here: https://github.com/SlinkyProject
+
 ## Getting started
 
 This documentation site uses [Sphinx](https://www.sphinx-doc.org/en/master/)
