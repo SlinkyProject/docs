@@ -18,18 +18,18 @@ Welcome to Slinky, a set of powerful integration tools designed to bring Slurm c
 Slinky is made by `SchedMD <https://schedmd.com/>`_, the lead developers of Slurm.
 
 .. card:: Slurm-operator
-   :link: https://slinky.readthedocs.io/projects/slurm-operator/en/latest/
+   :link: https://slinky.schedmd.com/projects/slurm-operator/en/latest/
    :link-alt: slurm-operator
 
    slurm-operator allows users to run workloads on Slurm within a Kubernetes cluster, taking advantage of many of the advanced scheduling features of Slurm within a cloud-native environment.
 
-   .. image:: _static/images/slurm-operator_big-picture.svg
+   .. image:: _static/images/architecture-operator.svg
       :width: 90%
       :align: center
       :alt: Kubernetes + Slurm = Slinky
 
 .. card:: Slurm-bridge
-   :link: https://slinky.readthedocs.io/projects/slurm-bridge/en/latest/
+   :link: https://slinky.schedmd.com/projects/slurm-bridge/en/latest/
    :link-alt: slurm-bridge
 
    Slurm-bridge contains a `Kubernetes <https://kubernetes.io/>`__ scheduler to manage select
