@@ -13,7 +13,7 @@ Slinky
 
 
 
-Welcome to Slinky, a set of powerful integration tools designed to bring Slurm capabilities into Kubernetes. Whether you’re managing high-performance computing (HPC) workloads or operating within cloud-native environments, Slinky helps bring together the best of both worlds for efficient resource management and scheduling.
+Welcome to Slinky, a set of powerful integration tools designed to bring Slurm's capabilities into Kubernetes. Whether you’re managing high-performance computing (HPC) workloads or operating within cloud-native environments, Slinky helps bring together the best of both worlds for efficient resource management and scheduling. Slinky enables the deployment of both training and inference workloads on the same cluster.
 
 Slinky is made by `SchedMD <https://schedmd.com/>`_, the lead developers of Slurm.
 
@@ -21,7 +21,7 @@ Slinky is made by `SchedMD <https://schedmd.com/>`_, the lead developers of Slur
    :link: https://slinky.schedmd.com/projects/slurm-operator
    :link-alt: slurm-operator
 
-   slurm-operator allows users to run workloads on Slurm within a Kubernetes cluster, taking advantage of many of the advanced scheduling features of Slurm within a cloud-native environment.
+   Slurm-operator allows users to run workloads on Slurm within a Kubernetes cluster, taking advantage of many of the advanced scheduling features of Slurm within a cloud-native environment. Slurm-operator allows for resources to be shared between Slurm and Kubernetes - improving resource utilization.
 
    .. image:: _static/images/architecture-operator.svg
       :width: 90%
