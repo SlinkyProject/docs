@@ -42,7 +42,7 @@ Slinky is made by `SchedMD <https://schedmd.com/>`_, the lead developers of Slur
       :alt: Kubernetes + Slurm = Slinky
 
 .. card:: Slinky containers
-   :link: https://slinky.schedmd.com/projects/containers/en/latest/
-   :link-alt: slurm-bridge
+   :link: https://slinky.schedmd.com/projects/containers
+   :link-alt: slinky containers
 
    SchedMD publishes a suite of container images to support `slurm-operator` and `slurm-bridge`
