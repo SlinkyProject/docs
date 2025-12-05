@@ -1,0 +1,11 @@
+# General
+* text=auto
+
+# Read The Docs
+docs/**/*.rst linguist-documentation
+docs/**/*.md linguist-documentation
+
+# Images
+*.svg binary
+*.png binary
+*.jpg binary
