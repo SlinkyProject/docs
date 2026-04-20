@@ -15,7 +15,7 @@ Slinky
 
 Welcome to Slinky, a set of powerful integration tools designed to bring Slurm's capabilities into Kubernetes. Whether you’re managing high-performance computing (HPC) workloads or operating within cloud-native environments, Slinky helps bring together the best of both worlds for efficient resource management and scheduling. In addition to being ideal for running AI training workloads, Slinky also provides a unique capability for scheduling both single- and multi-node AI inference workloads.
 
-Slinky is made by `SchedMD <https://schedmd.com/>`_, the lead developers of Slurm.
+Slinky was made by `SchedMD <https://schedmd.com/>`_, the lead developers of Slurm, and is developed and supported by `NVIDIA <https://www.nvidia.com/>`_.
 
 .. card:: Slurm-operator
    :link: https://slinky.schedmd.com/projects/slurm-operator
