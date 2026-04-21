@@ -1,5 +1,9 @@
 # Many of these pulled from  https://www.toptal.com/developers/gitignore/api/go,helm,linux,macos,windows,visualstudiocode
 
+# Application development folders
+bin/*
+build-docs/*
+
 # Binaries for programs and plugins
 *.exe
 *.exe~
