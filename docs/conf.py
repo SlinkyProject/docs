@@ -36,21 +36,17 @@ html_sidebars = {
 }
 html_show_sourcelink = False
 html_theme_options = {
-  "show_toc_level": 2,
-  "show_nav_level": 2,
-  "switcher": {
-      "json_url": "http://127.0.0.1:8000/_static/versions.json",
-      "version_match": version
-  }
-}
-
-html_theme_options = {
-    # ...
+    "show_toc_level": 2,
+    "show_nav_level": 2,
     "navbar_start": ["navbar-logo"],
     "navbar_center": ["navbar-nav"],
     "navbar_end": ["navbar-icon-links"],
     "navbar_persistent": ["theme-switcher", "search-button"],
-    # ...
+    "footer_end": ["cookies.html"],
+    "switcher": {
+        "json_url": "http://127.0.0.1:8000/_static/versions.json",
+        "version_match": version,
+    },
     "logo": {
         "alt_text": "Slinky - Home"
     },
